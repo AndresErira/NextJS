@@ -4,7 +4,9 @@
   "description": "Learning NextJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start",
+    "build": "next build",
+    "dev": "next"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/AndresErira/NextJS/issues"
   },
-  "homepage": "https://github.com/AndresErira/NextJS#readme"
+  "homepage": "https://github.com/AndresErira/NextJS#readme",
+  "dependencies": {
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
